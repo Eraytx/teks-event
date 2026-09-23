@@ -2,7 +2,7 @@
 
 Ankara'nın en büyük gençlik buluşması için hazırlanan etkinlik kayıt web sitesi.
 
-📍 **Mekan**: PSM Zürafa (Meşrutiyet Mah. Konur Sk. No: 33 Çankaya / Ankara)  
+📍 **Mekan**: JW Marriott Açık Hava Teras (Kızılırmak Mah, Söğütözü, Muhsin Yazıcıoğlu Cd. No: 1, 06520 Ankara)  
 📅 **Tarih**: 8 Ekim Perşembe  
 ⏰ **Saat**: 18.00 - 00.00  
 💳 **Katılım**: 350 TL (1 Ücretsiz İçecek Dahil)  

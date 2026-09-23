@@ -221,7 +221,7 @@ function initRegistrationForm() {
       universite: uniInput.value.trim(),
       bolum: bolumInput.value.trim(),
       etkinlik: "TEKS EVENT - Yaza Veda Yeni Döneme Merhaba",
-      mekan: "PSM Zürafa (Meşrutiyet Mah. Konur Sk. No: 33 Çankaya/Ankara)",
+      mekan: "JW Marriott Açık Hava Teras (Kizilirmak Mah, Söğütözü, Muhsin Yazıcıoğlu Cd. No: 1, 06520 Ankara)",
       ucret: "350 TL (1 İçecek Dahil)"
     };
 
