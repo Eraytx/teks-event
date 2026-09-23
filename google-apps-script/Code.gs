@@ -32,7 +32,13 @@ function doPost(e) {
 
     // Sayfa yoksa otomatik oluştur
     if (!sheet) {
-      sheet = ss.insertSheet(SHEET_NAME);
+      sheet = ss.insertSheet(SHEET_NAME, 0); // En başa (1. sıraya) ekle
+    }
+
+    // Eğer boş varsayılan Sayfa1 varsa ve birden fazla sayfa varsa, kullanıcı karışıklığını önlemek için temizle
+    const defaultSheet = ss.getSheetByName("Sayfa1") || ss.getSheetByName("Sheet1");
+    if (defaultSheet && defaultSheet.getLastRow() === 0 && ss.getSheets().length > 1) {
+      try { ss.deleteSheet(defaultSheet); } catch (delErr) {}
     }
 
     // Başlık satırı yoksa oluştur ve renklendir
