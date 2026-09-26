@@ -222,7 +222,7 @@ function initRegistrationForm() {
       bolum: bolumInput.value.trim(),
       etkinlik: "TEKS EVENT - Yaza Veda Yeni Döneme Merhaba",
       mekan: "JW Marriott Açık Hava Teras (Kizilirmak Mah, Söğütözü, Muhsin Yazıcıoğlu Cd. No: 1, 06520 Ankara)",
-      ucret: "550 TL (İçecek Dahil Değil)"
+      ucret: "550 TL"
     };
 
     // 3. Google Apps Script Web App Üzerinden Google E-Tabloya Gönder

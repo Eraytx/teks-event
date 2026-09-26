@@ -5,7 +5,7 @@ Ankara'nın en büyük gençlik buluşması için hazırlanan etkinlik kayıt we
 📍 **Mekan**: JW Marriott Açık Hava Teras (Kızılırmak Mah, Söğütözü, Muhsin Yazıcıoğlu Cd. No: 1, 06520 Ankara)  
 📅 **Tarih**: 8 Ekim Perşembe  
 ⏰ **Saat**: 17.00 - 00.00  
-💳 **Katılım**: 550 TL (İçecek Dahil Değil)  
+💳 **Katılım**: 550 TL  
 
 ---
 
