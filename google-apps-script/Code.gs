@@ -76,7 +76,7 @@ function doPost(e) {
       "'" + (data.telefon || ""), // Excel/Sheets'in başındaki sıfırı silmemesi için tek tırnakla
       data.universite || "",
       data.bolum || "",
-      "350 TL",
+      data.ucret || "550 TL",
       "Beklemede (WhatsApp İletişimi)",
       waLink
     ];

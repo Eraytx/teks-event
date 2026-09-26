@@ -21,16 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* --------------------------------------------------------------------------
-   GERİ SAYIM SAYACI (8 Ekim Perşembe 18:00)
+   GERİ SAYIM SAYACI (8 Ekim Perşembe 17:00)
    -------------------------------------------------------------------------- */
 function initCountdown() {
   const targetYear = new Date().getFullYear();
-  // 8 Ekim saat 18:00
-  let eventDate = new Date(`${targetYear}-10-08T18:00:00`);
+  // 8 Ekim saat 17:00
+  let eventDate = new Date(`${targetYear}-10-08T17:00:00`);
   
   // Eğer bu yılın tarihi geçmişse bir sonraki yıla hedefle
   if (eventDate.getTime() - new Date().getTime() < 0) {
-    eventDate = new Date(`${targetYear + 1}-10-08T18:00:00`);
+    eventDate = new Date(`${targetYear + 1}-10-08T17:00:00`);
   }
 
   const daysEl = document.getElementById('days');
@@ -222,7 +222,7 @@ function initRegistrationForm() {
       bolum: bolumInput.value.trim(),
       etkinlik: "TEKS EVENT - Yaza Veda Yeni Döneme Merhaba",
       mekan: "JW Marriott Açık Hava Teras (Kizilirmak Mah, Söğütözü, Muhsin Yazıcıoğlu Cd. No: 1, 06520 Ankara)",
-      ucret: "350 TL (1 İçecek Dahil)"
+      ucret: "550 TL (İçecek Dahil Değil)"
     };
 
     // 3. Google Apps Script Web App Üzerinden Google E-Tabloya Gönder
